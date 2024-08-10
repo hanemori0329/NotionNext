@@ -2,6 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
+#sticky-nav.bg-indigo-700 {
+    background-color: #62D0C7;
+}
+
+/* 首页开始阅读按钮 */
+.glassmorphism.w-40.z-40 {
+    background-color: #62D0C7;
+    border: none;
+}
+
+/* 标签颜色 */
+a.cursor-pointer.bg-indigo-700 {
+    background-color: #62D0C7;
+}
+
+/* 移动端侧边栏 */
+#side-bar>.bg-indigo-700 {
+    background-color: #62D0C7;
+}
+
+/* 移动端侧边栏菜单 */
+nav div:hover,li:hover {
+    background-color: #62D0C7!important;
+}
+
+/* 悬浮菜单 */
+.right-2 .bg-indigo-700 {
+    background-color: #62D0C7;
+}
+
+/* 目录进度条 */
+.h-4.bg-indigo-400 {
+    background-color: #62D0C7;
+}
+
+/* 目录文字高亮 */
+nav .text-green-500{
+    color: #62D0C7;
+}
+
+/* 网站页脚 */ 
+footer.bg-indigo-700{
+    background-color: #62D0C7;
+}
+
+/* 翻页按钮 */
+button.bg-indigo-700{
+    background-color: #62D0C7;
+}
+
 .wrapper {
   min-height: 100vh;
   display: flex;
